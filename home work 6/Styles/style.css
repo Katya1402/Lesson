@@ -1,0 +1,103 @@
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid rgb(156, 245, 156);
+}
+
+.header {
+    background-color: rgb(156, 245, 156);
+    padding: 15px;
+}
+
+.header select {
+    border-width: 0;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.logo {
+    text-decoration: none;
+}
+
+.left {
+    width: 40%;
+}
+
+.right {
+    width: 50%;
+}
+
+.form-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.form-item:last-child {
+    margin-bottom: 0px;
+}
+
+.required ::after {
+    content: '*';
+    color: red;
+}
+
+.form-item input, .form-item textarea, .form-item select {
+    width: 200px;
+
+}
+
+.form-item.option {
+    margin-bottom: 15px;
+}
+
+.form {
+    width: 100px !important;
+    margin-right: 100px;
+}
+
+.form-item div div {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+}
+
+/* .right {
+    float: right;
+    
+} */
+
+.form-item1 {
+    width: 500px;
+    display: flex;
+    
+}
+
+.form-item .radio-item {
+    display: flex;
+    justify-content: left;
+}
+
+.radio-item input {
+    width: auto;
+}
+
+.footer {
+    background-color: #e3e3e3;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+}
+
+.button {
+    background-color: #91ba6f;
+    color: white;
+    width: 100px;
+    height: 30px;
+    margin: 5px;
+    border: none;
+}
