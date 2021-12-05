@@ -1,0 +1,130 @@
+.main {
+    width: 1280px;
+    margin: auto;
+}
+
+.header {
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-menu {
+    display: flex;
+    align-items: center;   
+}
+
+.menu {
+    padding: 0px 50px 0px 0px;
+    display: flex;
+    align-items: center;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: bold;
+}
+
+.submenu {
+    display: none;
+}
+
+.menu:hover{
+    color: #006BE8;
+    border-bottom: 2px solid #0066CC;
+}
+
+.button {
+    width: 96px;
+    height: 48px;
+    border: 2px solid #0066CC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Red Hat Text', sans-serif;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: #0066CC;
+}
+
+.image {
+    position: relative;
+    top: 10px;
+}
+
+.icon {
+    height: 56px;
+    padding: 30px;
+    margin-left: 30px;
+    color: #FCFCFC;
+}
+
+.desc {
+    display: flex;
+    margin: 20px 10px;
+}
+
+.desc a {
+    margin: 0 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.picture {
+    height: 528px;
+    background-color: #FAFAFA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pic {
+    width: 368px;
+    height: 400px;
+    background-color: #ffff;
+    margin-right: 16px;
+}
+
+.footer {
+    height: 208px;
+    background-color: #f1f1f1;
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    width: 250px;
+    height: 2px;
+    background: linear-gradient(to right, #006BE8 30%,#e4e4e4 30%,#e4e4e4 70%);
+}
+
+.footer li {
+    margin: 10px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 50px;
+    
+}
+
+.footer a {
+    color: black;
+    font-size: 13px;
+    
+}
+
+.footer li a:hover {
+    color: #006BE8;
+}
+
+.copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48px;
+    justify-self: center;
+    color: rgba(0, 0, 0, 0.48);
+    font-size: 12px;
+}
+
+.copyreght {
+    float: right;
+}
